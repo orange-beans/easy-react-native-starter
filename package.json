@@ -23,8 +23,8 @@
     "set-android-port" : "adb reverse tcp:8081 tcp:8081",
     "build-android-debug": "cd android && gradlew assembleDebug",
     "build-android-release": "cd android && gradlew assembleRelease",
-    "install-android-debug": "adb install androidroid/app/build/outputs/apk/app-debug.apk",
-    "install-android-release": "adb install androidroid/app/build/outputs/apk/app-release.apk"
+    "install-android-debug": "adb install android/app/build/outputs/apk/app-debug.apk",
+    "install-android-release": "adb install android/app/build/outputs/apk/app-release.apk"
   },
   "dependencies": {
     "babel-eslint": "^6.1.2",

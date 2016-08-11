@@ -1,8 +1,8 @@
-# easy-react-native-starter
+## easy-react-native-starter
 
 Set up your react-native projects with a few commands.
 
-# Tools / Libraries included
+## Tools / Libraries included
 
 #### React / React-Native:
 * react-native-router-flux
@@ -17,7 +17,7 @@ Set up your react-native projects with a few commands.
 * babel-eslint
 
 
-# To Install
+## To Install
 #### Clone into a local folder:
 ```bash
 $ git clone https://github.com/orange-beans/React-SPA-boilerplate.git
@@ -27,7 +27,7 @@ $ git clone https://github.com/orange-beans/React-SPA-boilerplate.git
 $ npm install
 ```
 
-# To Use (Android)
+## To Use (Android)
 #### Start packager:
 ```bash
 $ npm run start-android
@@ -54,10 +54,10 @@ $ npm run install-android-debug
 $ npm run install-android-release
 ```
 
-# To Use (IOS)
+## To Use (IOS)
 #### (Under development)
 
 
-# Things to note
+## Things to note
 Before running Build release, make sure the keystore is properly set.
-Please see [Create a Signed apk](https://facebook.github.io/react-native/docs/signed-apk-android.html) for instructions on how to create a release keystore.
+Please see [this article](https://facebook.github.io/react-native/docs/signed-apk-android.html) for instructions on how to create a release keystore.

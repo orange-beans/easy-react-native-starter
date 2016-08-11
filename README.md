@@ -1,5 +1,5 @@
-# Introduction
-*easy-react-native-starter*:
+# easy-react-native-starter
+
 Set up your react-native projects with a few commands.
 
 # Tools / Libraries included
@@ -60,3 +60,4 @@ $ npm run install-android-release
 
 # Things to note
 Before running Build release, make sure the keystore is properly set.
+Please see [Create a Signed apk](https://facebook.github.io/react-native/docs/signed-apk-android.html) for instructions on how to create a release keystore.

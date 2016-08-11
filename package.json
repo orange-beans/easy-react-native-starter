@@ -1,10 +1,24 @@
 {
-  "name": "ScalableReactNative",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
+  "name": "easy-react-native-starter",
+	"version": "0.1.0",
+	"author": "orange-beans",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "ios",
+    "javascript",
+    "mobile",
+    "react",
+    "react-native",
+    "starter-kit",
+    "redux"
+  ],
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/orange-beans/easy-react-native-starter.git"
+  },
+	"scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-		
 		"start-android" : "cd node_modules/react-native/packager/ && packager.sh",
     "set-android-port" : "adb reverse tcp:8081 tcp:8081",
     "build-android-debug": "cd androidroid && gradlew assembleDebug",

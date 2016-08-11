@@ -59,5 +59,5 @@ $ npm run install-android-release
 
 
 ## Things to note
-Before running Build release, make sure the keystore is properly set.
-Please see [this article](https://facebook.github.io/react-native/docs/signed-apk-android.html) for instructions on how to create a release keystore.
+For the release build, a dummy keystore is used to quickly test the release version.
+To use your own keystore, please see [this article](https://facebook.github.io/react-native/docs/signed-apk-android.html) for instructions on how to create a keystore.

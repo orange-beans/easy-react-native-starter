@@ -21,8 +21,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
 		"start-android" : "cd node_modules/react-native/packager/ && packager.sh",
     "set-android-port" : "adb reverse tcp:8081 tcp:8081",
-    "build-android-debug": "cd androidroid && gradlew assembleDebug",
-    "build-android-release": "cd androidroid && gradlew assembleRelease",
+    "build-android-debug": "cd android && gradlew assembleDebug",
+    "build-android-release": "cd android && gradlew assembleRelease",
     "install-android-debug": "adb install androidroid/app/build/outputs/apk/app-debug.apk",
     "install-android-release": "adb install androidroid/app/build/outputs/apk/app-release.apk"
   },

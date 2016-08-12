@@ -2,6 +2,14 @@
 
 Set up your react-native projects with a few commands.
 
+## Updates
+
+* Updated react-native to 0.31
+* Updated react ro 15.2.1
+* Updated Gradel Plugin to 2.1.0
+* Updated Gradel Wrapper to 2.14.1
+
+
 ## Tools / Libraries included
 
 #### React / React-Native:

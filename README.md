@@ -28,7 +28,7 @@ Set up your react-native projects with a few commands.
 ## To Install
 #### Clone into a local folder:
 ```bash
-$ git clone https://github.com/orange-beans/React-SPA-boilerplate.git
+$ git clone https://github.com/orange-beans/easy-react-native-starter
 ```
 #### Then install dependent modules:
 ```bash

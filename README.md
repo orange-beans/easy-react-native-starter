@@ -38,28 +38,28 @@ $ npm install
 ## To Use (Android)
 #### Start packager:
 ```bash
-$ npm run start-android
+$ npm run android-start
 ```
 
 #### Set device port
 ```bash
-$ npm run set-android-port
+$ npm run android-set-port
 ```
 
 #### Build debug/release
 ```bash
-$ npm run build-android-debug
+$ npm run android-build-debug
 ```
 ```bash
-$ npm run build-android-release
+$ npm run android-build-release
 ```
 
 #### Install debug/release to device
 ```bash
-$ npm run install-android-debug
+$ npm run android-install-debug
 ```
 ```bash
-$ npm run install-android-release
+$ npm run android-install-release
 ```
 
 ## To Use (IOS)

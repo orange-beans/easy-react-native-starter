@@ -19,12 +19,12 @@
   },
 	"scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-		"start-android" : "cd node_modules/react-native/packager/ && packager.sh",
-    "set-android-port" : "adb reverse tcp:8081 tcp:8081",
-    "build-android-debug": "cd android && gradlew assembleDebug",
-    "build-android-release": "cd android && gradlew assembleRelease",
-    "install-android-debug": "adb install android/app/build/outputs/apk/app-debug.apk",
-    "install-android-release": "adb install android/app/build/outputs/apk/app-release.apk"
+		"android-start" : "cd node_modules/react-native/packager/ && packager.sh",
+    "android-set-port" : "adb reverse tcp:8081 tcp:8081",
+    "android-build-debug": "cd android && gradlew assembleDebug",
+    "android-build-release": "cd android && gradlew assembleRelease",
+    "android-install-debug": "adb install android/app/build/outputs/apk/app-debug.apk",
+    "android-install-release": "adb install android/app/build/outputs/apk/app-release.apk"
   },
   "dependencies": {
     "babel-eslint": "^6.1.2",

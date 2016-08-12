@@ -43,6 +43,9 @@ const styles = Object.assign({}, appStyles, StyleSheet.create({
 
 const ColoredRaisedButton = MKButton.coloredButton()
   .withText('BUTTON')
+  .withStyle({
+    borderRadius: 9,
+  })
   .withOnPress(() => {
     console.log("Hi, it's a colored button!");
   })
@@ -54,6 +57,10 @@ const PlainRaisedButton = MKButton.button()
   .build();
 const FlatButton = MKButton.flatButton()
   .withText('BUTTON')
+  .withStyle({
+    borderWidth:1,
+    borderRadius: 2,
+  })
   .build();
 const ColoredFlatButton = MKButton.coloredFlatButton()
   .withText('BUTTON')

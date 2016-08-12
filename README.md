@@ -14,6 +14,7 @@ Set up your react-native projects with a few commands.
 
 #### React / React-Native:
 * react-native-router-flux
+* react-native-material-kit
 * react-redux
 
 #### Redux:

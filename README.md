@@ -9,7 +9,6 @@ Set up your react-native projects with a few commands.
 * Gradel Plugin => 2.1.0
 * Gradel Wrapper => 2.14.1
 
-
 ## Tools / Libraries included
 
 #### React / React-Native:

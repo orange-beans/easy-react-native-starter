@@ -64,6 +64,10 @@ const FlatButton = MKButton.flatButton()
   .build();
 const ColoredFlatButton = MKButton.coloredFlatButton()
   .withText('BUTTON')
+  .withStyle({
+    borderWidth:0,
+    borderRadius: 5,
+  })
   .build();
 const AccentColoredFlatButton = MKButton.accentColoredFlatButton()
   .withText('BUTTON')
